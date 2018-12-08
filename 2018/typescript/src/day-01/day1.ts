@@ -1,6 +1,6 @@
-import { parseData } from '../../helpers';
+import { parseData } from '../helpers';
 
-// const data = parseData('./src/data/day1.graham.txt');
+// const data = parseData('../data/day1.graham.txt');
 
 interface FrequencyInput {
     symbol: string;
