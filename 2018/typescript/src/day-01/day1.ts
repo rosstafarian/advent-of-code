@@ -7,7 +7,6 @@ interface FrequencyInput {
     value: number;
 }
 
-
 // const inputData: string[] = data.input;
 
 export const massagedData = (inputs: string[]): FrequencyInput[] =>
