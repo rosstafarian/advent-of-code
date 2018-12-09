@@ -10,10 +10,11 @@ const frequency = {
     },
 
     findDuplicateFrequency: function (input) {
-        const frequencyCount = input.length;
         let found = false;
         let runningFrequency = 0;
-        let foundFrequencies = {};
+        let foundFrequencies = {
+            0: true
+        };
         let duplicateFrequency = 0;
 
         while (!found) {
